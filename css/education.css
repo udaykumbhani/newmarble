@@ -1,0 +1,118 @@
+@import url(./style.css);
+
+.education{
+    padding: 56px 0px 96px 0px;
+}
+.education-heading{
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18.62px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #F7F5F2;
+    opacity: 0.6;
+    margin-bottom: 40px;
+}
+.education-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+.education-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.education-image{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #999999;
+    margin-top: 43px;
+}
+.education-icon-image{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.eduvcation-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 269px;
+    margin-bottom: 53px;
+}
+.education-card-heading{
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31.92px;
+    text-align: center;
+    color: #F7F5F2;
+    margin-bottom: 4px;
+    min-width: 269px;
+}
+.education-card-paragraph{
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.28px;
+    text-align: center;
+    color: #F27059;
+    margin-bottom: 8px;
+}
+.education-card-time{
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15.96px;
+    text-align: center;
+    color: #797F99;
+    margin-bottom: 4px;
+}
+
+@media (max-width:768px){
+    .eduvcation-content{
+        max-width: 250px;
+    }
+    .education-card-heading{
+        min-width: 250px;
+    }
+    .education-wrapper{
+        justify-content: center;
+    }
+}
+
+@media (max-width:576px){
+    .education{
+        padding: 50px 0px 50px 0px;
+    }
+    .education-wrapper{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .education-col{
+        width: 100%;
+    }
+    .eduvcation-content{
+        max-width: 269px;
+    }
+    .education-card-heading{
+        min-width: 269px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+}
