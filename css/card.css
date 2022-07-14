@@ -1,0 +1,124 @@
+@import url(./style.css);
+.card{
+    padding: 64px 0px 57px 0px;
+}
+.card .container{
+    max-width: 904px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 16px;
+}
+.card-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 119px;
+}
+.card-col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 361px;
+}
+.card-top{
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card-icon-part{
+
+    width: 48px;
+    height: 48px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+.card-icon{
+    display: block;
+    width: 29px;
+    height: 29px;
+    object-fit: cover;
+    overflow: hidden;
+}
+.card-para{
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #797F99;
+    max-width: 361px;
+}
+.card-image-part{
+    width: 240px;
+    height: 240px;
+    overflow: hidden;
+    background-blend-mode: normal, multiply, normal;
+    border-radius: 16px;
+    margin-bottom: 40px;
+}
+.card-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    overflow: hidden;
+}
+.card-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.card-heading{
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+.card-span{
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18.62px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #797F99;
+    text-align: center;
+}
+.card-link{
+    color: #F27059;
+}
+@media (max-width:992px){
+    .card-wrapper{
+        gap: 20px;
+        justify-content: center;
+    }
+}
+@media (max-width:768px){
+    .card-wrapper{
+        flex-wrap: wrap;
+    }
+    .card-col{
+        width: 100%;
+    }
+}
+@media (max-width:576px){
+    .card-col{
+        min-width: 300px;
+    }
+}

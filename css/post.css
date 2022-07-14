@@ -1,0 +1,124 @@
+@import url(./style.css);
+
+.post{
+    padding:64px 0px 99px 0px;
+}
+.post-title{
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18.62px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #F7F5F2;
+    opacity: 0.6;
+    margin-bottom: 64px;
+}
+
+.post-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0px 32.5px 0px 32.5px;
+    width: 100%;
+    position: relative;
+}
+.post-col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 269px;
+    width: 25%;
+}
+.post-img{
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.post-icon-img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.post-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.post-heading{
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31.92px;
+    color: #F7F5F2;
+    margin-bottom: 4px;
+    min-width: 269px;
+    text-align: center;
+}
+.post-link{
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.28px;
+    color: #F27059;
+    max-width: 201px;
+}
+.post-span{
+    color: #797F99;
+}
+.post-anchore{
+    text-align: center;
+    margin-bottom: 16px;
+}
+.post-timing{
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15.96px;
+    color: #797F99;
+    max-width: 201px;
+    text-align: center;
+}
+.post-wrapper::after{
+    content: '';
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    right: 0;
+    border: 1px solid #323F55;
+    max-width: 1207px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+@media (max-width:1200px){
+    .post-wrapper{
+        width: 100%;
+        padding: 0;
+        justify-content: center;
+        gap: 64px;
+    }
+    .post-col{
+        width: 40%;
+        max-width: inherit;
+    }
+}
+@media (max-width:576px){
+    .post-col{
+        width: 100%;
+        max-width: inherit;
+    }
+}
