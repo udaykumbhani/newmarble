@@ -11,13 +11,13 @@
     display: flex;
     align-items: center;
     gap: 32px;
-    /* width: 100%; */
-
 }
 .book-col{
     position: relative;
     transition: all 0.4s;
+    z-index: 0;
 }
+
 
 .book-front{
     width: 261px;
@@ -52,6 +52,7 @@
     width: 261px;
     height: 398px;
     overflow: hidden;
+    transition: all 0.4s;
 }
 .book-images{
     display: block; 
@@ -60,14 +61,7 @@
     object-fit: cover;
     overflow: hidden;
 }
-.overlay-part{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    bottom: 32px;
-    left: 24px;
-    z-index: 2;
-}
+
 .overlay-para{
     font-family: 'Outfit', sans-serif;
     font-style: normal;
@@ -126,23 +120,26 @@
     color: #FFFFFF;
     padding: 9px 16px;
 }
-.overlay{
+.overlay-part{
+    display: flex;
+    flex-direction: column;
     position: absolute;
-    bottom: 0px;
-    left: 0px;
-    top: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    display: none;
+    bottom: 32px;
+    left: 24px;
+    transition: all 0.4s;
+   opacity: 0;
+} 
+
+.book-images-part:hover{
+    color: black;
+    opacity: 0.2;
+    
 }
-.book-col:hover .overlay{
-     display: block;
-     background: #000000;
-     opacity: 0.9;
-     width: 100%;
-     height: 100%;
+.book-col:hover .overlay-part{
+     opacity: 1;
+     z-index: 5;
 }
+
 
 
 @media (max-width:768px){
