@@ -33,6 +33,7 @@
     height: 710px;
     overflow: hidden;
     background-color: #999999;
+    position: relative;
 }
 .business-women-image{
     display: block;
@@ -40,6 +41,7 @@
     height: 100%;
     overflow: hidden;
     object-fit: cover;
+    /* position: relative;  */
 }
 .right-col{
     display: flex;
@@ -91,6 +93,37 @@
     line-height: 22.4px;
     color: #797F99;
     max-width: 352px;
+}
+.business-world-heading{
+    font-family: 'Lora', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31.92px;
+    color: #F7F5F2;
+}
+.business-world-para,.business-world-paragraph{
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22.4px;
+    color: #CFD2E0;
+}
+
+.business-world-text{
+    position: absolute;
+    bottom: 40px;
+    left: 32px;
+    z-index: 1;
+}
+.business-world-bg{
+    position: absolute;
+    bottom: 0px;
+    max-height: 408px;
+    height: 50%;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%);
 }
 
 @media (max-width:1300px){
@@ -144,6 +177,7 @@
     }
     .right-col{
         flex-direction: column;
+        align-items: flex-start;
     }
     
 }
