@@ -74,7 +74,7 @@
     min-width: 236px;
 }
 .invested-button{
-
+    transition: all 0.4s;
     background: rgba(255, 255, 255, 0.2);
     border-radius: 24px;
     overflow: hidden;
@@ -84,6 +84,9 @@
     justify-content: center;
     margin: 0 auto;
     max-width: 133px;
+}
+.invested-button:hover{
+    background-color: #F27059;
 }
 .investment-btn-link{
     display: inline;
@@ -119,3 +122,4 @@
         margin: 0;
     }
 }
+
