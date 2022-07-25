@@ -1,0 +1,111 @@
+@import url(./style.css);
+
+.schedule{
+    overflow: hidden; 
+}
+.schedule-wrapper{
+    padding: 56px 0px 174px 0px;
+    margin-left: 181px;
+    border-left: 2px solid #797F99;
+}
+.schedule-content{
+    padding-left: 41px;
+}
+.schedule-title{
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 63.84px;
+    color: #F7F5F2;
+    margin-bottom: 22px;
+}
+.schedule-paragraph{
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.6px;
+    margin-bottom: 49px;
+    max-width: 480px;
+    color: #F7F5F2;
+}
+.progressbar-li{
+    margin-bottom: 30px;
+}
+.dl-time{
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18.62px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #F27059;
+    margin-bottom: 8px;
+    position: relative;
+}
+.dl-time::before{
+    content: '';
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #F27059;
+    left: -50px;
+}
+.dl-heading{
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31.92px;
+    color: #F7F5F2;
+    margin-bottom: 8px;
+    max-width: 269px;
+}
+.dl-content{
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.6px;
+    color: #F7F5F2;
+    max-width: 529px;
+}
+
+@media (max-width:1024px){
+    .schedule-wrapper{
+        margin-left: 50px;
+    }
+}
+@media (max-width:768px){
+    .schedule-title{
+        font-size: 24px;
+        line-height: 34px;
+        margin-bottom: 12px;
+    }
+    .schedule-paragraph{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .dl-content{
+        max-width: 350px;
+    }
+}
+@media (max-width:576px){
+    .schedule-wrapper{
+        padding: 25px 16px 50px 0px;
+        margin-left: 16px;
+    }
+    .schedule-paragraph{
+        max-width: 300px;
+    }
+    .dl-heading{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .dl-content{
+        max-width: 300px;
+    }
+    }
