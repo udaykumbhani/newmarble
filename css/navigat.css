@@ -1,0 +1,102 @@
+@import url(./style.css);
+
+.navigat{
+    background: #F7F5F2;
+    min-height: 569px;
+    overflow: hidden;
+    position: relative;
+}
+.navigat-content{
+   position: absolute;
+   top: 186px;
+   bottom: 0;
+   left: 0;
+   right: 0;
+
+}
+.navigat-title{
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 63.84px;
+    text-align: center;
+    color: #02022B;
+    margin-bottom: 32px;
+}
+.navigat-sub-title{
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26.6px;
+    text-align: center;
+    color: #02022B;
+    opacity: 0.8;
+    margin-bottom: 50px;
+}
+.navigat-btn{
+    display: block;
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22.4px;
+    text-align: center;
+    color: #FFFFFF;
+    box-shadow: 0px -16px 24px rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    padding: 9px 31.5px;
+    background: #02022B;
+    border: none;
+    margin: 0 auto;
+}
+.navigat-btn-text{
+    display: inline;
+    
+    
+}
+.orange-shape-left{
+    background: linear-gradient(96.96deg, rgba(255, 92, 0, 0.4) 54.55%, rgba(255, 239, 99, 0.4) 80.12%);
+    opacity: 0.89;
+    filter: blur(240px);
+    transform: rotate(-12.01deg);
+    position: absolute;
+    top: 120px;
+    left: -23px;
+    width: 783.21px;
+    height: 178.05px;
+}
+.blue-shape{
+    background: linear-gradient(294.86deg, rgba(0, 87, 255, 0.5) 19.61%, rgba(99, 246, 255, 0) 72.35%);
+    opacity: 0.89;
+    filter: blur(100px);
+    transform: rotate(86.61deg);
+    position: absolute;
+    width: 288.18px;
+    height: 478.98px;
+    top: 166px;
+    left: 825px;
+}
+.orange-right-shape{
+    background: linear-gradient(285.4deg, rgba(255, 204, 183, 0.7) 14.06%, rgba(201, 69, 0, 0.21) 45.33%, rgba(252, 128, 225, 0) 69.69%);
+    opacity: 0.89;
+    filter: blur(100px);
+    transform: rotate(-10.7deg);
+    position: absolute;
+    width: 647.38px;
+    height: 256.48px;
+    right: 0;
+    top: 314.6px;
+}
+.pink-shape{
+    background: linear-gradient(96.96deg, rgba(255, 92, 0, 0.15) 54.55%, rgba(255, 239, 99, 0.15) 80.12%);
+    opacity: 0.89;
+    filter: blur(240px);
+    transform: rotate(-12.01deg);
+    position: absolute;
+    width: 649.21px;
+    height: 178.05px;
+    right: 0;
+    top: 0px;
+}
