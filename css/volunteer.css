@@ -139,4 +139,7 @@
     .supporter{
         min-height: auto;
     }
+    .supporter-btn{
+        margin-bottom: 0;
+    }
 }

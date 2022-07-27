@@ -22,6 +22,10 @@
     line-height: 24px;
     letter-spacing: 0.5px;
     color: #FFFFFF;
+    transition: all 0.4s;
+}
+.footer-link:hover{
+    color: #F27059;
 }
 .footer-copyright{
     font-family: 'Outfit', sans-serif;

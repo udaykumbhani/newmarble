@@ -1,7 +1,6 @@
 @import url(./style.css);
 
 .our-family{
-    
     margin: 0px 0px 150px 0px;
 }
 .family-wrapper{
@@ -9,20 +8,18 @@
     align-items: center;
     /* justify-content: space-between; */
     gap: 77px;
-    /* width: 100%; */
+    width: 100%;
+    /* flex-wrap: wrap; */
 }
-/* .family-col{
+.family-col{
     width: 49%;
-} */
-.family-images{
-    width: 548px;
-    height: 548px;
-    overflow: hidden;
 }
+
 .family-img{
     display: block;
     width: 100%;
     height: 100%;
+    
     object-fit: cover;
     overflow: hidden;
 }
@@ -98,10 +95,53 @@
 .timimg-none{
     display: none;
 }
-.pl-o{
-    padding-left: 0;
-    width: 406px;
-}
+
 .extra-gap{
-    gap: 123px;
+    gap: 0;
+}
+
+
+@media (max-width:1024px){
+    .family-wrapper{
+        flex-wrap: wrap;
+    }
+    .family-col{
+        width: 100%;
+    }
+    .extra-gap{
+        gap:77px;
+    }
+    .family-p-content{
+        max-width: 700px;
+    }
+    
+}
+@media (max-width:768px){
+    .family-heading{
+        font-size: 30px;
+        line-height: 42px;
+    }
+    .family-p-content{
+        max-width: 500px;
+    }
+}
+@media (max-width:576px){
+    .family-wrapper{
+        gap: 50px;
+    }
+    .family-content{
+        padding-left: 0;
+    }
+    .family-p-content{
+        max-width: 300px;
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .family-heading{
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .our-family{
+        margin: 0px 0px 75px 0px;
+    }
 }

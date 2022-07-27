@@ -2,9 +2,14 @@
 
 .navigat{
     background: #F7F5F2;
-    min-height: 569px;
+    height: 569px;
     overflow: hidden;
     position: relative;
+    background-image: url(../images/navigat-shape.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 100%;
+    background-size: cover;
 }
 .navigat-content{
    position: absolute;
@@ -33,7 +38,8 @@
     text-align: center;
     color: #02022B;
     opacity: 0.8;
-    margin-bottom: 50px;
+    margin: 0 auto;
+    padding-bottom: 50px;
 }
 .navigat-btn{
     display: block;
@@ -50,13 +56,41 @@
     background: #02022B;
     border: none;
     margin: 0 auto;
+    transition: all 0.4s;
 }
-.navigat-btn-text{
-    display: inline;
-    
-    
+.navigat-btn:hover{
+    background: #F27059;
+    box-shadow: 0px 12px 24px rgba(242, 112, 89, 0.4);
+    border-radius: 20px;
+    color: #02022B;
 }
-.orange-shape-left{
+@media (max-width:768px){
+    .navigat{
+       background-image: none;
+    }
+    .navigat-sub-title{
+        max-width: 500px;
+    }
+}
+
+@media (max-width:576px){
+    .navigat{
+        max-height: 500px;
+    }
+    .navigat-title{
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+    .navigat-sub-title{
+        font-size: 16px;
+        line-height: 26px;
+        padding-bottom: 20px;
+        max-width: 300px;
+    }
+}
+
+/* .orange-shape-left{
     background: linear-gradient(96.96deg, rgba(255, 92, 0, 0.4) 54.55%, rgba(255, 239, 99, 0.4) 80.12%);
     opacity: 0.89;
     filter: blur(240px);
@@ -99,4 +133,4 @@
     height: 178.05px;
     right: 0;
     top: 0px;
-}
+} */

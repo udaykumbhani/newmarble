@@ -92,4 +92,7 @@
         grid-template-columns: 1fr;
         grid-template-areas: "c1" "c2" "c3";
     }
+    .organization-card{
+        padding: 25px 0px 50px 0px;
+    }
 }
