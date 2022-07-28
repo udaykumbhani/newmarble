@@ -28,16 +28,8 @@
     flex-direction: column;
     padding-left: 16px;
 }
-.family-p-text{
-    font-family: 'Outfit', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 18.62px;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: #F7F5F2;
-    opacity: 0.6;   
+.section-heading-title.family-p-text{
+    text-align: start;
     margin-bottom: 8px;
 }
 .family-heading{

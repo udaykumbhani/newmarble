@@ -3,17 +3,7 @@
 .education{
     padding: 56px 0px 96px 0px;
 }
-.education-heading{
-    font-family: 'Outfit', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 18.62px;
-    text-align: center;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: #F7F5F2;
-    opacity: 0.6;
+.section-heading-title.education-heading{
     margin-bottom: 40px;
 }
 .education-wrapper{
@@ -28,6 +18,7 @@
     align-items: center;
     justify-content: center;
     gap: 16px;
+    padding: 42px 0px 53px 0px;
 }
 .education-image{
     width: 120px;
@@ -35,7 +26,6 @@
     border-radius: 50%;
     overflow: hidden;
     background-color: #999999;
-    margin-top: 43px;
 }
 .education-icon-image{
     display: block;
@@ -50,7 +40,6 @@
     align-items: center;
     justify-content: center;
     max-width: 269px;
-    margin-bottom: 53px;
 }
 .education-card-heading{
     font-family: 'Outfit', sans-serif;

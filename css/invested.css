@@ -4,17 +4,7 @@
     padding: 99.7px 0px 84.3px 0px;
     overflow: hidden;
 }
-.invested-title{
-    font-family: 'Outfit', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 18.62px;
-    text-align: center;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: #F7F5F2;
-    opacity: 0.6;
+.section-heading-title.invested-title{
     margin-bottom: 24px;
 }
 .invested-wrapper{

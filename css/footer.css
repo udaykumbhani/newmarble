@@ -14,6 +14,9 @@
     align-items: center;
     gap: 67px;
 }
+.footer-list{
+    list-style-type: none;
+}
 .footer-link{
     font-family: 'Outfit', sans-serif;
     font-style: normal;

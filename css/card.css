@@ -28,7 +28,6 @@
     justify-content: center;
 }
 .card-icon-part{
-
     width: 48px;
     height: 48px;
     background: rgba(255, 255, 255, 0.1);
@@ -46,15 +45,8 @@
     object-fit: cover;
     overflow: hidden;
 }
-.card-para{
-    font-family: 'Outfit', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 48px;
-    text-align: center;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
+.section-heading-title.card-para{
+    opacity: 1;
     color: #797F99;
     max-width: 361px;
 }

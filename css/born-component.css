@@ -10,17 +10,7 @@
     align-items: center;
     justify-content: center;
 }
-.born-heading{
-    font-family: 'Outfit', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 48px;
-    text-align: center;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: #F7F5F2;
-    opacity: 0.6;
+.section-heading-title.born-heading{
     max-width: 361px;
     margin-bottom: 10px;
 }
