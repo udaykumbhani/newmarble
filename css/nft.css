@@ -9,7 +9,7 @@
 }
 .nft-wrapper{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 0.5fr;
     grid-template-rows: auto;
     grid-template-areas: "card-1 card-2 card-3 card-4" "card-5";
     gap: 32px;

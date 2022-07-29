@@ -44,16 +44,9 @@
     justify-content: center;
     flex-direction: column;
 }
-.post-heading{
-    font-family: 'Outfit', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 31.92px;
-    color: #F7F5F2;
+.heading-semi-text.post-heading{
     margin-bottom: 4px;
     min-width: 269px;
-    text-align: center;
 }
 .post-link{
     font-family: 'Outfit', sans-serif;

@@ -47,13 +47,7 @@
 .organization-content{
     max-width: 269px;
 }
-.org-heading{
-    font-family: 'Outfit', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 31.92px;
-    text-align: center;
+.heading-semi-text.org-heading{
     color: #FFFFFF;
 }
 .org-para{

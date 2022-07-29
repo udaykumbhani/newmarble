@@ -3,9 +3,11 @@
 .schedule{
     overflow: hidden; 
 }
+.schedule-main{
+    padding-left: 181px;
+}
 .schedule-wrapper{
     padding: 56px 0px 174px 0px;
-    margin-left: 181px;
     border-left: 2px solid #797F99;
 }
 .schedule-content{
@@ -55,13 +57,8 @@
     background: #F27059;
     left: -50px;
 }
-.dl-heading{
-    font-family: 'Outfit', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 31.92px;
-    color: #F7F5F2;
+.heading-semi-text.dl-heading{
+    text-align: start;
     margin-bottom: 8px;
     max-width: 269px;
 }
@@ -76,8 +73,8 @@
 }
 
 @media (max-width:1024px){
-    .schedule-wrapper{
-        margin-left: 50px;
+    .schedule-main{
+        padding-left: 50px;
     }
 }
 @media (max-width:768px){
@@ -95,14 +92,16 @@
     }
 }
 @media (max-width:576px){
+    .schedule-main{
+        padding-left: 16px;
+    }
     .schedule-wrapper{
         padding: 25px 16px 50px 0px;
-        margin-left: 16px;
     }
     .schedule-paragraph{
         max-width: 300px;
     }
-    .dl-heading{
+    .heading-semi-text.dl-heading{
         font-size: 16px;
         line-height: 25px;
     }

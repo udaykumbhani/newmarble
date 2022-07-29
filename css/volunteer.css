@@ -35,7 +35,7 @@
     display: flex;
     align-items: center;    
     flex-direction: column;
-    padding: 0px 30px;
+    padding: 32px 30px 56px 30px;
     min-height: 410px;
 }
 .supporter-image-main{
@@ -43,7 +43,7 @@
     height: 96px;
     overflow: hidden;
     border-radius: 50%;
-    margin: 32px 0px 16px 0px;
+    margin: 0px 0px 16px 0px;
 }
 .supporter-img{
     display: block;
@@ -81,14 +81,13 @@
     text-align: center;
     color: #CFD2E0;
     max-width: 327px;
-    margin: 0px 30px 23px 30px;
+    margin-bottom: 23px;
 }
 .supporter-btn{
     display: inline;
     background: #F27059;
     border-radius: 24px;
     border: none;
-    margin-bottom: 56px;
     padding: 9.5px 16px;
     transition: all 0.4s;
 }

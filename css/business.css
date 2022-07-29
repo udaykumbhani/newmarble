@@ -57,13 +57,9 @@
     gap: 4px;
     max-width: 352px;
 }
-.business-heading{
+.heading-semi-text.business-heading{
     font-family: 'Lora', serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 31.92px;
-    color: #F7F5F2;
+    text-align: start;
     max-width: 313px;
 }
 .business-para{
@@ -84,13 +80,9 @@
     color: #797F99;
     max-width: 352px;
 }
-.business-world-heading{
+.heading-semi-text.business-world-heading{
     font-family: 'Lora', serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 31.92px;
-    color: #F7F5F2;
+    text-align: start;
 }
 .business-world-para,.business-world-paragraph{
     font-family: 'Outfit', sans-serif;
@@ -151,11 +143,11 @@
     .right-content{
         width: 250px;
     }
-    .business-world-heading{
+    .heading-semi-text.business-world-heading{
         font-size: 18px;
         line-height: 28px;
     }
-    .business-heading{
+    .heading-semi-text.business-heading{
         font-size: 18px;
         line-height: 28px;
     }
