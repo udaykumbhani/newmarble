@@ -1,7 +1,6 @@
 @import url(./style.css);
 
 .book{
-    padding: 139px 0px 183px 32px;
     overflow: hidden;
     max-width: 1440px;
     width: 100%;
@@ -13,7 +12,7 @@
     position: relative;
     transition: all 0.4s;
     z-index: 0;
-    /* max-width: 261px; */
+    min-width: 261px;
     margin-right: 32px;
 }
 
@@ -120,20 +119,8 @@
     transition: all 0.4s;
    opacity: 0;
 } 
-.slider-next-icon{
-    width: 20px;
-    height: 18px;
-    overflow: hidden;
-    position: absolute;
-    right: 78px;
-    bottom: 52%;
-}
-.next-aerrow-ic{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    overflow: hidden;
-}
+
+
 .book-images-part:hover{
     color: black;
     opacity: 0.2;
@@ -144,35 +131,70 @@
      z-index: 5;
 }
 
-.book-slider .slick-prev{
-    opacity: 0;
+.book-slider{
+    position: relative;
+}
+
+.slider-next-icon{
+    position: absolute;
+    top: 46%;
+    bottom: 0;
+    right: 76px;
+
+}
+.next-aerrow-ic{
+    width: 20px;
+    height: 18px;
+    object-fit: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+
+
+
+
+.book-slider{
+    padding: 139px 0px 183px calc((100vw - 1440px) / 2);
+}
+.book-slider .slick-track{
+    display: flex;
 }
 .book-slider .slick-next{
     right: 56px;
-    background: rgba(247, 245, 242, 0.2);
-    opacity: 0.8;
+    top: 47.5%;
+    position: absolute;
+    width: 64px;
+    height: 64px;
     border: 1px solid #F7F5F2;
+    background: rgba(247, 245, 242, 0.2);
     border-radius: 50%;
-    padding: 32px 32px;
+    opacity: 0.8;
+}
+.book-slider .slick-next:before {
+    content: '→';
     font-size: 0;
 }
-.slick-next:before {
-    content: '→';
-    position: absolute;
-    right: 22px;
-    top: 24px;
-    display: none;
-
+.book-slider .slick-prev{
+    opacity: 0;
 }
+
+
+
 
 @media (max-width:768px){
     .book{
-        padding: 75px 0px 75px 16px;
+        padding-left: 16px;
+    }
+    .book-slider{
+        padding: 50px 0px 50px calc((100vw - 1440px) / 2);
     }
     .book-content{
         padding: 15px;
     }
-    .slider-next-icon{
-        bottom: 48%;
-    }
+    
 }
+
+
