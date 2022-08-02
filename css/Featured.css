@@ -1,0 +1,134 @@
+@import url(./style.css);
+
+.featured::before{
+    content: '';
+    position: absolute;
+    border-top: 1px solid #323F55;
+    max-width: 1207px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.featured{
+    position: relative;
+    padding: 62px 0px 201px 0px;
+    overflow: hidden;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+.Featured-title{
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #F7F5F2;
+    text-align: center;
+}
+.section-heading-title.Featured-head-paragraph{
+    margin-bottom: 62px;
+}
+
+.featured-bg{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background: #343434;
+    border-radius: 7.10772px;
+    padding: 17.77px 17.77px 31.81px 17.77px;
+}
+.featured-images{
+    width: 100%;
+    height: 413px;
+    overflow: hidden;
+    border-radius: 7.10772px;
+    margin-bottom: 16px;
+}
+.featured-image{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.featured-content{
+    display: flex;
+    flex-direction: column;
+}
+.featured-heading{
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22.4px;
+    color: #F27059;
+    margin-bottom: 8px;
+}
+.featured-para{
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38.4px;
+    color: #F7F5F2;
+    max-width: 619px;
+    margin-bottom: 8px;
+}
+.featured-logo-part{
+    display: flex;
+    gap: 5.33px;
+    align-items: center;
+}
+.featured-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 21.32px;
+    height: 21.32px;
+    overflow: hidden;
+    background: #F7F5F2;
+    border-radius: 50%;
+    padding: 4px 3px;
+}
+.featured-vogue{
+    display: block;
+    width: 15px;
+    height: 15px;
+    object-fit: cover;
+    overflow: hidden;
+}
+.vogue-link{
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22.4px;
+    color: #FFFFFF;
+}
+
+.featured-slider .slick-slide{
+    margin:0px  30px;
+}
+
+@media(max-width:1024px){
+    .featured-bg{
+        width: 100%;
+    }
+}
+@media(max-width:576px){
+    .featured{
+        padding: 50px 0px;
+    }
+    .featured-para{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .featured-slider .slick-slide{
+        margin:0px  10px;
+    }
+    .featured-images{height: 300px;}
+}

@@ -1,0 +1,169 @@
+@import url(./style.css);
+
+.business{
+    margin-bottom: 100px;
+    padding-top: 32px;
+    height: 822px;
+    overflow: hidden;
+}
+.section-heading-title.business-title{
+    margin-bottom: 26px;
+}
+.business-wrapper{
+    display: flex;
+    gap: 63px;
+}
+.business-col{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.business-left{
+    width: 608px;
+    height: 710px;
+    overflow: hidden;
+    background-color: #999999;
+    position: relative;
+}
+.business-women-image{
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    /* position: relative;  */
+}
+.right-col{
+    display: flex;
+    align-items: center;
+    gap: 37px;
+}
+.business-img{
+    width: 224px;
+    height: 182px;
+    overflow: hidden;
+    background-color: #999999;
+}
+.business-right-images{
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+}
+.right-content{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    max-width: 352px;
+}
+.heading-semi-text.business-heading{
+    font-family: 'Lora', serif;
+    text-align: start;
+    max-width: 313px;
+}
+.business-para{
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22.4px;
+    color: #797F99;
+    max-width: 352px;
+}
+.business-timing{
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22.4px;
+    color: #797F99;
+    max-width: 352px;
+}
+.heading-semi-text.business-world-heading{
+    font-family: 'Lora', serif;
+    text-align: start;
+}
+.business-world-para,.business-world-paragraph{
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22.4px;
+    color: #CFD2E0;
+}
+
+.business-world-text{
+    position: absolute;
+    bottom: 40px;
+    left: 32px;
+    z-index: 1;
+}
+.business-world-bg{
+    position: absolute;
+    bottom: 0px;
+    max-height: 408px;
+    height: 50%;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%);
+}
+
+@media (max-width:1300px){
+    .business-wrapper{
+        justify-content: center;
+    }
+    .right-col{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+@media (max-width:992px){
+    .business{
+        height: auto;
+    }
+    .business-wrapper{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .right-col{
+        flex-direction: row;
+        align-items: center;
+    }
+}
+@media (max-width:768px){
+    .business-left{
+        width: 500px;
+        height: auto;
+    }
+    .business-women-image{
+        width: 500px;
+        height: auto;
+    }
+    .right-content{
+        width: 250px;
+    }
+    .heading-semi-text.business-world-heading{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .heading-semi-text.business-heading{
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+
+@media (max-width:576px){
+    .business-wrapper{
+        gap: 25px;
+    }
+    .business-left,.business-women-image{
+        width: 100%;
+        height: auto;
+    }
+    .right-col{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+}

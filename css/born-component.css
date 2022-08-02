@@ -1,0 +1,97 @@
+@import url(./style.css);
+
+.born{
+    padding: 64px 0px 78px 0px;
+}
+
+.born-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section-heading-title.born-heading{
+    max-width: 361px;
+    margin-bottom: 10px;
+}
+.born-time-text{
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    color: #F7F5F2;
+    max-width: 1120px;
+}
+.location-p-text{
+    margin-bottom: 72px;
+}
+.location-link{
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.6px;
+    text-align: center;
+    color: #F27059;
+}
+.born-col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.born-Aquarius{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    overflow: hidden;
+    border-radius: 50%;
+    background: rgba(196, 196, 196, 0.1);
+    margin-bottom: 8px;
+}
+.astrology-icon{
+    display: block;
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    overflow: hidden;
+}
+.born-text{
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.6px;
+    text-align: center;
+    color: #FFFFFF;
+    
+}
+.born-bg-image{
+    width: 173px;
+    height: 224px;
+    overflow: hidden;
+    filter: drop-shadow(0px 0px 24px rgba(255, 255, 255, 0.7));
+    margin-top: 40px;
+}
+.born-image{
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+
+}
+
+@media (max-width:576px){
+    .born{
+        padding: 50px 0px 50px 0px;
+    }
+    .born-time-text{
+        font-size: 24px;
+        line-height: 38px;
+    }
+}

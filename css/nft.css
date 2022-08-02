@@ -1,0 +1,56 @@
+@import url(./style.css);
+
+.nft{
+    padding: 95px 0px 134px 0px;
+    overflow: hidden;
+}
+.section-heading-title.nft-title{
+    margin-bottom: 53px;
+}
+.nft-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 0.5fr;
+    grid-template-rows: auto;
+    grid-template-areas: "card-1 card-2 card-3 card-4" "card-5";
+    gap: 32px;
+    width: 100%;
+    padding: 0px 16px;
+}
+.nft-col{
+    width: 100%;
+}
+.nft-images{
+
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.nft-img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+@media (max-width:992px){
+    .nft-wrapper{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: "card-1 card-2 card-3" "card-4 card-5";
+    }
+}
+@media (max-width:768px){
+    .nft-wrapper{
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "card-1 card-2" "card-3 card-4 " "card-5";
+    }
+}
+@media (max-width:576px){
+    .nft{
+        padding: 50px 0px 50px 0px;
+    }
+    .nft-wrapper{
+        grid-template-columns: 1fr;
+        grid-template-areas: "card-1 " "card-2" "card-3 " "card-4 " "card-5";
+    }
+}
